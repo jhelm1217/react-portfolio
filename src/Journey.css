@@ -1,0 +1,65 @@
+
+/* Journey.css */
+
+/* body {
+    background-image: url('growth2.jpeg')
+} */
+
+.blog {
+    text-align: center;
+    overflow-y: auto;
+
+  }
+  
+  .scroll-container {
+    max-height: 80vh; /* Adjust this value as needed */
+    overflow-y: auto;
+  }
+  header {
+    font-size: 2em;
+    color: white; /* Change header color */
+  }
+  
+  a {
+    color: pink; /* Change link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #9013FE; /* Change link color on hover */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    max-width: 300px;
+  }
+  
+  details {
+    background-color: #F5F5F5; /* Change background color of details */
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  summary {
+    font-weight: bold;
+    color: #333; /* Change summary color */
+    cursor: pointer;
+  }
+  
+  h3 {
+    color: #333; /* Change color of headings */
+  }
+  
+  p, ul, li {
+    color: #666; /* Change color of paragraphs and list items */
+  }
+  

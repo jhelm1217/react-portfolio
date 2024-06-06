@@ -2,8 +2,52 @@ html {
   height: 100%;
 }
 body {
+  background-image: url('src/assets/vinesss2.jpeg');
   height: 100%;
 }
+
+.aboutme-background {
+  background-image: url('src/assets/sunflower.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+}
+
+.journey-background{
+  background-image: url('src/assets/growth2.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+}
+
+.projects-background{
+  background-image: url('src/assets/green blur .jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+}
+
+.contact-background {
+  background-image: url('src/assets/vines.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+}
+.contact-img {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  border-radius: 50%; /* This makes the image round */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  margin: auto; /* Centers the image horizontally */
+  display: block; /* Ensures margin auto works for centering */
+}
+
+
 #root {
   display: flex;
   height: 100%;

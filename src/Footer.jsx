@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div>
-      Footer
+      90s Production
     </div>
   )
 }

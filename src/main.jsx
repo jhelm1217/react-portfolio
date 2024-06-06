@@ -10,8 +10,11 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
-import About from './About'
+import AboutMe from './AboutMe'
 import App from './App'
+import Journey from './Journey'
+import Projects from './Projects'
+import Contact from './Contact'
 import ErrorPage from './ErrorPage'
 import Header from './Header'
 import Footer from './Footer'
@@ -37,11 +40,23 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <App />,
-        errorElement: <ErrorPage />
+        // errorElement: <ErrorPage />
       },
       {
-        path: '/about',
-        element: <About />
+        path: '/aboutme',
+        element: <AboutMe />
+      },
+      {
+        path: '/journey',
+        element: <Journey />
+      },
+      {
+        path: '/projects',
+        element: <Projects />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
       },
     ]
   }
