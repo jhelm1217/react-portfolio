@@ -33,7 +33,7 @@ function Projects() {
     <div className="projects-background">
       <div className="p-5">
         <Link to='/'>{'<- Back'}</Link>
-        <h1 style={{ color: "white" }}>My Projects</h1>
+        <h1 style={{ color: "white", textAlign: 'center' }}>My Projects</h1>
       </div>
       <div className="projects-container" style={{ marginTop: '60px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <div className="project-card">
