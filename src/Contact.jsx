@@ -3,11 +3,15 @@ import './App.css'
 
 function Contact () {
   return (
+    
     <div className=" contact-background"> 
+    <div className="header-container">
+
+    <Link to='/'>{'<- Back'} </Link>
+    </div>
     <div className="p-5">
-      <Link to='/'>{'<- Back'} </Link>
-      <h1 style={{ color: "white" }}>Reach Out to Me! </h1>
-      <div className="container contact-card-wrapper">
+      <h1 style={{ color: "Black" }}>Reach Out to Me! </h1>
+      <div className="contact-card-wrapper">
 	    <div className="row">
 		    <div className="container col-12 col-sm-6 p-2">
 		        <img src="src/assets/bootcamp.jpg" class="card-img-top hover contact-img" alt="picture of me" />
@@ -34,6 +38,7 @@ function Contact () {
       </div>
     </div>
     </div>
+
   )
 }
 

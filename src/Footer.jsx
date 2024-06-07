@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div>
+    <div style={{ color: 'purple', textAlign: 'center'}}>
       90s Production
     </div>
   )
