@@ -10,7 +10,7 @@ function Journey() {
   
       <div className="scroll-container">
     <div className="blog">
-      <header>Bootcamp at Awesome Inc.</header>
+      <header>Bootcamp: 12 Weeks at Awesome Inc.</header>
       
       {/* <a href="src/assets/technicalarticle.html">What is pseudocode!</a> */}
       
