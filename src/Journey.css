@@ -17,7 +17,7 @@
   }
   header {
     font-size: 2em;
-    color: white; /* Change header color */
+    color: antiquewhite /* Change header color */
   }
   
   a {
@@ -42,7 +42,7 @@
   }
   
   details {
-    background-color: #F5F5F5; /* Change background color of details */
+    background-color: antiquewhite; /* Change background color of details */
     border: 1px solid #DDD;
     border-radius: 4px;
     padding: 10px;
@@ -50,16 +50,22 @@
   }
   
   summary {
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #333; /* Change summary color */
     cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Times New Roman' */
   }
   
   h3 {
     color: #333; /* Change color of headings */
+    font-family: 'Courier New', Courier, monospace;
+
   }
   
-  p, ul, li {
+  p {
     color: #666; /* Change color of paragraphs and list items */
+    font-family: 'Courier New', Courier, monospace;
+
   }
   

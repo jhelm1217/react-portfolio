@@ -8,7 +8,7 @@ body {
 
 body::before {
   content: '';
-  background-image: url('src/assets/vinesss2.jpeg');
+  background-image: url('src/assets/warm.jpeg');
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -16,13 +16,12 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  /* filter:blur(5px) grayscale(70%); */
   z-index: -1;
 }
 
 body::after {
   content: '';
-  background-color: rgba(27, 25, 25, 0.5);
+  /* background-color: rgba(126, 123, 85, 0.5); */
   position: fixed;
   top: 0;
   left: 0;
@@ -33,7 +32,7 @@ body::after {
 
 
 .aboutme-background {
-  background-image: url('src/assets/sunflower.jpeg');
+  background-image: url('src/assets/sunflower3.jpeg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -55,6 +54,7 @@ body::after {
   left: 20px;
   text-align: left;
 }
+
 .aboutme-container {
   display: flex;
   flex-direction: row;
@@ -72,7 +72,7 @@ body::after {
 }
 
 .journey-background{
-  background-image: url('src/assets/growth2.jpeg');
+  background-image: url('src/assets/grow1.jpeg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -80,12 +80,37 @@ body::after {
 }
 
 .projects-background{
-  background-image: url('src/assets/green blur .jpeg');
+  background-image: url('src/assets/garden2.jpeg');
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
 }
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.project-screenshot {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.project-screenshot:hover {
+  transform: scale(1.05);
+}
+
 
 .contact-background {
   background-image: url('src/assets/laptop.avif');
@@ -158,5 +183,5 @@ body::after {
 .nav li {
   float: right;
   text-align: center;
+  font-family:'Times New Roman', Times, serif;
 }
-

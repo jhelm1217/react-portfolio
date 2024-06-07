@@ -14,19 +14,18 @@ const Title = () => {
 
 export default function Navbar () {
    return <nav className='nav'>
-    {/* <a href='/'>Jacinta</a> */}
         <ul>
             <li>
                 <a href='contact'>Contact</a>
+            <li>
+                <a href='/journey'>My Journey</a>
+            </li>
             <li>
                 <a href='/aboutme'>About Me!</a>
             </li>
             </li>
             <li>
                 <a href='/projects'>My Projects</a>
-            </li>
-            <li>
-                <a href='/journey'>My Journey</a>
             </li>
       </ul>
     </nav>

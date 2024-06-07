@@ -6,13 +6,13 @@ function Journey() {
     <div className="journey-background">
     <div className="p-5">
       <Link to='/'>{'<- Back'}</Link>
-      <h1 style={{ color: "white" }}>My Journey!</h1>
+      <h1 style={{ color: "antiqueWhite" }}>My Journey!</h1>
   
       <div className="scroll-container">
     <div className="blog">
       <header>Bootcamp at Awesome Inc.</header>
       
-      <a href="technicalarticle.html">What is pseudocode!</a>
+      {/* <a href="src/assets/technicalarticle.html">What is pseudocode!</a> */}
       
       <div className="row">
         <div className="column">

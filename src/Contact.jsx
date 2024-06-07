@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom"
 import './App.css'
+// import bootcamp from "assets/bootcamp.jpg"
+
+
 
 function Contact () {
   return (

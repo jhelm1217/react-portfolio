@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import './App.css'
+// import logo from 'assets/sunflower.jpeg'
 
 function AboutMe() {
   return (
@@ -9,7 +10,7 @@ function AboutMe() {
     <div className="header-container">
 
       <Link to='/'>{'<- Back'}</Link>
-      <h1 style={{ color: "brown" }}>All About Jacinta!</h1>
+      <h1 style={{ color: "grey" }}>All About Jacinta!</h1>
       </div>
       <div className="aboutme-container">
       <div className="aboutme-section">
