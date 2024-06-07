@@ -32,7 +32,7 @@ body::after {
 
 
 .aboutme-background {
-  background-image: url('src/assets/sunflower3.jpeg');
+  background-image: url('assets/sunflower3.jpeg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -72,7 +72,7 @@ body::after {
 }
 
 .journey-background{
-  background-image: url('src/assets/grow1.jpeg');
+  background-image: url('assets/grow1.jpeg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -80,7 +80,7 @@ body::after {
 }
 
 .projects-background{
-  background-image: url('src/assets/garden2.jpeg');
+  background-image: url('assets/garden2.jpeg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -113,7 +113,7 @@ body::after {
 
 
 .contact-background {
-  background-image: url('src/assets/laptop.avif');
+  background-image: url('assets/laptop.avif');
   background-size: cover;
   background-position: center center;
   background-repeat: repeat;
