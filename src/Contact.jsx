@@ -17,7 +17,7 @@ function Contact () {
       <div className="contact-card-wrapper">
 	    <div className="row">
 		    <div className="container col-12 col-sm-6 p-2">
-		        <img src="src/assets/bootcamp.jpg" class="card-img-top hover contact-img" alt="picture of me" />
+		        <img src="assets/bootcamp.jpg" class="card-img-top hover contact-img" alt="picture of me" />
                 <div className="card-body">
                     <div className="border"> 
                         <h1 className="card-title text-center">Jacinta Helm</h1>
