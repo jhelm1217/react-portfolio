@@ -53,7 +53,7 @@ function Projects() {
         </div>
         <div className="project-card">
           <h2 style={{ color: 'white' }}>To Do List!</h2>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://todo-list-weld-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">
             <img src="assets/todolist.png" alt="To Do List" className="project-screenshot" />
           </a>
           <p style={{ color: 'white' }}>A fun to do list for you to keep track of all your tasks!</p>
