@@ -110,8 +110,7 @@ body::after {
 .project-screenshot:hover {
   transform: scale(1.05);
 }
-
-
+/* 
 .contact-background {
   background-image: url('assets/laptop.avif');
   background-size: cover;
@@ -121,16 +120,81 @@ body::after {
   display: flex;
   justify-content:right;
   align-items: center;
+} 
+.contact-card {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: forestgreen;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: 'cursive', sans-serif;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 75%;
+  border: 5px solid #fff;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.name {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #bbb;
+}
+
+ .contact-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+} 
+
+.contact-button:hover {
+  background-color: purple;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a img {
+  width: 50px;
+  height: 50px;
 }
 .contact-card-wrapper {
   display: flex;
   align-items: center; 
   margin-right: 700px;
-  /* justify-content: flex-end */
   
-}
+} 
 
-.contact-img {
+ .contact-img {
   width: 200px; 
   height: 200px; 
   border-radius: 50%; 
@@ -148,7 +212,84 @@ body::after {
 }
 #page-content {
   flex-grow: 2;
+} 
+ */
+/* 
+ .contact-background {
+  background-image: url('assets/laptop.avif');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+} */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8); /* Optional: adds a slight background to the content */
+  padding: 20px;
+  border-radius: 10px;
 }
+
+.contact-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-img {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin: auto;
+  display: block; 
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 24px; /* Adjust the size as needed */
+  height: 24px;
+}
+
+#root {
+  display: flex;
+  height: 100vh; /* Ensure it takes up the full viewport height */
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+#page-content {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 75%;
+  border: 5px solid #fff;
+  margin-bottom: 20px;
+}
+/* .name {
+  font-size: 15px;
+  margin-bottom: 5px;
+  align-items: center;
+} */
 
 /* Navbar.css */
 .nav {
