@@ -130,7 +130,7 @@
 // export default Contact;
 
 import { Link } from "react-router-dom";
-import './App.css';
+import './contact.css';
 // import bootcamp from "assets/bootcamp.jpg";
 
 function Contact() {
@@ -151,7 +151,6 @@ function Contact() {
                       <img src="src/assets/bootcamp.jpg" alt="Profile" className="profile-pic" />
                       <div className="profile-info">
                         <h2 className="name">Jacinta Helm</h2>
-                        {/* <p className="title">Full Stack Web Developer</p> */}
                       </div>
                     </div>
                     <div className="social-icons">
