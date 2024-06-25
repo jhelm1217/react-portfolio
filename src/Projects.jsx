@@ -26,13 +26,13 @@ function Projects() {
           <p style={{ color: 'white' }}>I made this game in week 3 of my BootCamp.</p>
         </div>
         
-        {/* <div className="project-card">
+        <div className="project-card">
           <h2 style={{ color: 'white' }}>The Weather App</h2>
           <a href="https://jhelm1217.github.io/weather-app/" target="_blank" rel="noopener noreferrer">
             <img src="/src/assets/weather.png" alt="Weather App" className="project-screenshot" />
           </a>
           <p style={{ color: 'white' }}>This weather app allows you to input the name of a city and get the current temperature.</p>
-        </div> */}
+        </div>
         <div className="project-card">
           <h2 style={{ color: 'white' }}>To Do List!</h2>
           <a href="https://todo-list-weld-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">
